@@ -1,0 +1,272 @@
+/* Sticky footer styles
+      -------------------------------------------------- */
+html,body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+	background-color: #f5f5f5;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,#footer {
+	height: 60px;
+}
+
+#footer {
+	background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media ( max-width : 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/* Custom page CSS
+      -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+#wrap>.container {
+	padding-top: 60px;
+}
+
+.container .credit {
+	margin: 20px 0;
+}
+
+code {
+	font-size: 80%;
+}
+
+.brand {
+	height: 40px;
+}
+
+.ui-widget,.ui-widget .ui-widget {
+	font-size: 13px !important;
+	line-height: 1.38;
+}
+
+.question {
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+}
+
+.column1 {
+	width: 500px;
+	text-align: left;
+}
+
+.column2 {
+	width: 300px;
+	text-align: right;
+}
+
+#form_nav {
+	margin: 0;
+}
+
+#table_header {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#table_header .nav-tabs,#table_header .nav-pills {
+	margin: 0;
+}
+
+.spacer {
+	height: 40px;
+}
+
+.mini_space {
+	height: 5px;
+}
+
+.page-header {
+	margin: 5px 0 20px 0 !important;
+}
+
+.page-header h2 {
+	margin: 0;
+}
+
+#explorer hr {
+	margin: 8px;
+	padding: 0;
+}
+
+#explorer .ui-datagrid-data {
+	margin-left: 4px;
+	margin-right: 4px;
+	width: 100%;
+}
+
+#explorer_scroller {
+	padding: 4px;
+}
+
+form {
+	padding: 0;
+	margin: 0;
+}
+
+#form table {
+	margin: 0px 15px 0px 5px;
+	width: 100%;
+}
+
+.form-brands,.question-block,.frame-zone {
+	width: 100% ;
+	padding: 5px 5px 5px 5px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+.form-grid{
+	
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px -20px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+
+
+
+
+
+legend {
+	margin-bottom: 5px;
+}
+
+.accordion-heading {
+	background-color: #f5f5f5;
+}
+
+.question-block {
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+.question-body {
+	padding: 2px 4px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.38;
+	color: #ffffff;
+	vertical-align: baseline;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+.invisible-panel {
+	border: 0px;
+}
+
+#grille .ui-panel {
+	padding: 0px;
+}
+
+#grille .ui-panel-content,#grille .ui-widget-content {
+	padding: 0;
+	width: 100%;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-active {
+	margin-bottom: 1px;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-default {
+	margin-bottom: 2px;
+	border: 1px solid #E5E5E5;
+}
+
+.ui-accordion .ui-accordion-header {
+	cursor: pointer;
+	position: relative;
+	margin-top: 1px;
+	zoom: 1;
+}
+
+.ui-accordion .ui-accordion-header {
+	background: #f5f5f5;
+	box-shadow: none;
+}
+
+.frame-zone {
+	
+}
+
+
+
+#explorer .ui-widget-overlay{
+	background: #f5f5f5;
+}
+
+.custom-separator{
+	
+	height: 2px;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 2px 0px 2px 0px;
+	border-bottom: 2px solid #d5d5d5;
+}
+
+#grille\:sc .ui-scrollpanel-content{
+	width:100%;
+}
+.scc{
+	height:663px;
+	width:100%;
+	
+}
