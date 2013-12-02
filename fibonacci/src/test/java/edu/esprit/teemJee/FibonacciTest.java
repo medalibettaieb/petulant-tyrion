@@ -17,5 +17,9 @@ public class FibonacciTest {
 		Assert.assertEquals(1, fibonacci.fibo(1));
 
 	}
-	
+	@Test
+	public void shouldReturnOneWhenTwoIn() {
+		Assert.assertEquals(1, fibonacci.fibo(6));
+
+	}
 }
